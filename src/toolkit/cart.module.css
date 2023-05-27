@@ -1,0 +1,44 @@
+.main{
+    display: flex;
+}
+.main img{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
+.detail{
+    margin: 40px 0 0 30px;
+    line-height: 40px;
+    width: 700px;
+}
+.qty{
+    background-color: powderblue;
+    border-radius: 5px;
+    width: 110px;
+}
+.qty button{
+    padding: 8px;
+    margin: 2px;
+    font-size: 17px;
+    background-color: transparent;
+    border: none;
+}
+.qty span{
+    padding: 5px 15px;
+}
+.remove{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+}
+.remove button{
+    background-color: yellow;
+    border: none;
+    padding: 8px;
+    border-radius: 8px;
+}
+.remove button:active{
+    background-color: red;
+    color: white
+}

@@ -1,0 +1,90 @@
+.product_container{
+    width: 300px;
+    height: 350px;
+    margin: 8px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.container{
+    display: flex;
+    width: 95%;
+    flex-wrap: wrap;
+    margin: 0 auto 0 auto;
+}
+.imgdiv{
+    text-align: center;
+}
+.name{
+    margin: 5px 20px;
+}
+.name div:nth-child(1){
+    font-size: large;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* :hover */
+
+.hovereffect{
+    display: none;
+    position: absolute;
+}
+.hov_name{
+    width: 80%;
+    bottom: 70px;
+    background-color: lightgrey;
+    border-radius: 5px;
+    position: absolute;
+    font-size: 15px;
+    padding: 5px;
+}
+.hovereffect div:nth-child(1) img{
+    bottom: 325px;
+    position: absolute;
+    left: 262px;
+}
+.cart_btn{
+    display: flex;
+    width: 100%;
+    margin: 20px;
+}
+.cart_btn button{
+    font-size: 16px;
+}
+.plus_minus{
+    padding: 8px;
+    border-radius: 5px;
+    background-color: powderblue;
+}
+.plus_minus button{
+    border: none;
+    background-color: transparent;
+}
+.plus_minus span{
+    margin: 0 20px;
+}
+.cart_btn div:nth-child(2) button{
+    background-color: yellow;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 55px;
+}
+.product_container:hover .hovereffect{
+    display: block;
+}
+.cart div{
+    right: 20px;
+    margin: 10px 55px 20px 10px;
+    background-color: lightblue;
+    padding: 10px;
+    border-radius: 5px;
+}
+.cart{
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+.cart span{
+    padding-left: 10px;
+}
